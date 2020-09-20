@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#e4eaf0;
+    height: 90px;
+    font-family: sans-serif;
+    top:0;
+    position:sticky;
+}
+header h1{
+    padding: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+
+}
+header h1:hover{
+    color:skyblue;
+}
+.container{
+    width: 100%;
+	height: auto;
+	display:inline-block;
+}
+.image
+{
+	width:20%;
+	height:300px;
+	float: left;
+	margin-left: 8%;
+    padding-top:100px;
+
+}
+.image img
+{
+	width:110%;
+    height:110%;
+    border:1px skyblue;
+}
+
+#view{
+    background-color: skyblue;
+    padding:7px 20px;
+    font-size: 16px;
+    position: absolute;
+    top:75%;
+    margin-left: 60px;
+    border-radius: 5px;
+    
+}
