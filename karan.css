@@ -4,20 +4,49 @@ body{
 }
 header{
     background-color:#e4eaf0;
-    height: 90px;
+    height: 100px;
     font-family: sans-serif;
     top:0;
     position:sticky;
 }
 header h1{
     padding: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
     cursor: pointer;
+}
+header h1:active{
+    color:skyblue;
+    
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    left:70%;
+    top:0;
+   
+}
+header ul li{
+    display: inline-block;
+    float: center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-right: 40px;
 
 }
-header h1:hover{
-    color:skyblue;
+header ul li a{   
 }
+.logos{
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+.logos img{
+    left:80%;
+    padding-right: 100px;
+    padding-top:20px ;
+}
+
+
 .container{
     width: 100%;
 	height: auto;
@@ -26,26 +55,26 @@ header h1:hover{
 .image
 {
 	width:20%;
-	height:300px;
+	height:310px;
 	float: left;
 	margin-left: 8%;
-    padding-top:100px;
-
+    padding-top:70px;
 }
 .image img
 {
-	width:110%;
-    height:110%;
+	width: 105%;
+    height:160%;
     border:1px skyblue;
 }
-
+.image img:hover{
+	transform: scale(1.1);
+}
 #view{
     background-color: skyblue;
     padding:7px 20px;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
-    top:75%;
-    margin-left: 60px;
-    border-radius: 5px;
-    
+    top:70%;
+    margin-left: 90px;
+    border-radius: 5px;  
 }
